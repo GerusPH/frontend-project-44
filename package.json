@@ -6,6 +6,7 @@
   "main": "index.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
     "frontend-project-44": "bin/brain-games.js"
   },
   "scripts": {

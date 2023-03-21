@@ -3,6 +3,6 @@
 
 <a href="https://codeclimate.com/github/GerusPH/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/34b830e532a0df4f782e/maintainability" /></a>
 
-<a href="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt"></a>
+https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt
 
-<a href=https://asciinema.org/a/UFIuIwPZrqEhTOaYSN3yEXCaJ></a>
+https://asciinema.org/a/UFIuIwPZrqEhTOaYSN3yEXCaJ

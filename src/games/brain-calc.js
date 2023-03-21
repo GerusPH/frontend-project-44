@@ -1,7 +1,6 @@
-#!/usr/bin/env node
 
 import getRandomInt from '../utils.js';
-import runGame from '../index.js';
+import startGame from '../index.js';
 
 
 const chooseMaths = () => {
@@ -43,7 +42,7 @@ const setupGame = () => {
 
 const startCalc = () => {
   const gameDescription = 'What is the result of the expression?';
-  runGame(gameDescription, setupGame);
+  startGame(gameDescription, setupGame);
 };
 
 export default startCalc;

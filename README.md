@@ -8,17 +8,17 @@ Here are 5 logical console games.
 To start plaing games check that you have latest Node version : node --version
 
 Installation : 
-1. Clone repository
-2. write comand 'npm link'
+ Clone repository
+ write comand 'npm link'
 
 Start Playing :
 write one of game names:
 
-1. brain-even
-2. brain-calc
-3. brain-gcd
-4. brain-progression
-5. brain-prime
+ brain-even
+ brain-calc
+ brain-gcd
+ brain-progression
+ brain-prime
 
 
 Brain-even Game

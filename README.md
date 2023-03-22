@@ -3,6 +3,25 @@
 
 <a href="https://codeclimate.com/github/GerusPH/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/34b830e532a0df4f782e/maintainability" /></a>
 
+## Here are 5 logical console games.
+
+## To start plaing games check that you have latest Node version : node --version
+
+Installation : 
+1. Clone repository
+2. write comand 'npm link'
+
+Start Playing :
+write one of game names:
+
+1. brain-even
+2. brain-calc
+3. brain-gcd
+4. brain-progression
+5. brain-prime
+
+
+Brain-even Game
 <a href="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt" target="_blank"><img src="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt.svg" /></a>
 Brain-calc Game
 <a href="https://asciinema.org/a/UFIuIwPZrqEhTOaYSN3yEXCaJ" target="_blank"><img src="https://asciinema.org/a/UFIuIwPZrqEhTOaYSN3yEXCaJ.svg" /></a>

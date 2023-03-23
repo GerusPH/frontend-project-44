@@ -9,10 +9,12 @@
 ### To start palying first of all check that you have latest Node version!!!
 
 ### To install:
+
 -clone repository
 -npm link
 
 ### To start console game write:
+
 brain-even
 brain-calc
 brain-gcd

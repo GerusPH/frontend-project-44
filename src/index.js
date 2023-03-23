@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import greetingUser from './cli.js';
+import greeting from './cli.js';
 
 const checkIsWin = (count, userName) => {
   const countWins = 3;
@@ -21,7 +21,7 @@ const isCorrect = (correctAnswer, answer, count, userName) => {
 
 const startGame = (gameDescription, setupGame) => {
   console.log('Welcome to the Brain Games!');
-  const userName = greetingUser();
+  const userName = greeting();
   console.log(gameDescription);
   let countRightAnswers = 0;
 

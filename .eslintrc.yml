@@ -1,23 +1,20 @@
-# Окружение
+
 env:
-  es6: true
   node: true
 
-# Используем airbnb-base длябазовой конфигурации
 extends: 'airbnb-base'
 
 parserOptions:
   ecmaVersion: latest
   sourceType: module
 
-# правила
 rules:
   no-console: 0
   import/extensions: 
     - error
     - ignorePackages
     - js: always
-  linebreak-style: 0
+  
 no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
 
  

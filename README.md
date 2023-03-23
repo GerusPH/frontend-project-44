@@ -3,6 +3,22 @@
 
 <a href="https://codeclimate.com/github/GerusPH/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/34b830e532a0df4f782e/maintainability" /></a>
 
+
+## Here are 5 Brain console games
+
+### To start palying first of all check that you have latest Node version!!!
+
+### To install:
+-clone repository
+-npm link
+
+### To start console game write:
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
+
 Brain-even Game
 <a href="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt" target="_blank"><img src="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt.svg" /></a>
 

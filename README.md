@@ -10,16 +10,16 @@
 
 ### To install:
 
--clone repository
--npm link
+1. clone repository
+2. npm link
 
 ### To start console game write:
 
-brain-even
-brain-calc
-brain-gcd
-brain-progression
-brain-prime
+1. brain-even
+2. brain-calc
+3. brain-gcd
+4. brain-progression
+5. brain-prime
 
 Brain-even Game
 <a href="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt" target="_blank"><img src="https://asciinema.org/a/hUIkL1jaNVCMymZgRsFdTBdQt.svg" /></a>

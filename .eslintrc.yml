@@ -1,8 +1,6 @@
-
 env:
   node: true
-
-extends: 'airbnb-base'
+extends: airbnb-base
 overrides: []
 parserOptions:
   ecmaVersion: latest
@@ -10,10 +8,10 @@ parserOptions:
 
 rules:
   no-console: 0
-  import/extensions: 0
-   
- 
-
+  import/extensions: 
+    - error
+    - ignorePackages
+    - js: always
  
   
   

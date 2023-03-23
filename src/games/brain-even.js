@@ -10,10 +10,10 @@ const setupGame = () => {
   return [question, correctAnswer];
 };
 
-const evenGame = () => {
+const startEven = () => {
   const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   startGame(gameDescription, setupGame);
 };
 
-export default evenGame;
+export default startEven;

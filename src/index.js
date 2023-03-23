@@ -1,23 +1,38 @@
 import readlineSync from 'readline-sync';
+import greetingUser from './cli.js';
 
-export default function startGame(gameRules, startRound) {
-  const userName = readlineSync.question('Welcome to the Brain Games!\nMay I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log(gameRules);
+const checkIsWin = (count, userName) => {
+  const countWins = 3;
+  if (count === countWins) {
+    console.log(`Congratulations, ${userName}!`);
+  }
+};
 
-  for (let i = 0; i < 3; i += 1) {
-    const [expression, correctAnswer] = startRound();
-    console.log(`Question: ${expression}`);
-    const userAnswer = readlineSync.question('Your answer: ');
-
-    if (userAnswer === correctAnswer) {
-      console.log('Correct!');
-    } else {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${userName}!`);
-      return;
-    }
+const isCorrect = (correctAnswer, answer, count, userName) => {
+  const result = count;
+  if (answer === correctAnswer) {
+    console.log('Correct!');
+    return result + 1;
   }
 
-  console.log(`Congratulations, ${userName}!`);
-}
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. \nLet's try again, ${userName}!`);
+  return false;
+};
+
+const startGame = (gameDescription, setupGame) => {
+  console.log('Welcome to the Brain Games!');
+  const userName = greetingUser();
+  console.log(gameDescription);
+  let countRightAnswers = 0;
+
+  while (countRightAnswers < 3 && countRightAnswers !== false) {
+    const [question, correctAnswer] = setupGame();
+    console.log(`Question: ${question}`);
+    const answer = readlineSync.question('Your answer: ');
+
+    countRightAnswers = isCorrect(correctAnswer, answer, countRightAnswers, userName);
+  }
+  checkIsWin(countRightAnswers, userName);
+};
+
+export default startGame;

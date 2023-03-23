@@ -1,7 +1,5 @@
-
 import getRandomInt from '../utils.js';
 import startGame from '../index.js';
-
 
 const chooseMaths = () => {
   const maths = ['+', '-', '*'];

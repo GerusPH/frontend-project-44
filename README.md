@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/GerusPH/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/34b830e532a0df4f782e/maintainability" /></a>
 
 
-## Here are 5 Brain console games
+# Here are 5 Brain console games
 
 ### To start palying first of all check that you have latest Node version!!!
 
